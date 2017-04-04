@@ -1,0 +1,2 @@
+# sample-api-document
+APIドキュメントのサンプル
