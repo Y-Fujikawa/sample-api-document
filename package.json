@@ -1,0 +1,24 @@
+{
+  "name": "sample-api-document",
+  "version": "1.0.0",
+  "description": "APIドキュメントのサンプル",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-Fujikawa/sample-api-document.git"
+  },
+  "author": "Y-Fujikawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Y-Fujikawa/sample-api-document/issues"
+  },
+  "homepage": "https://github.com/Y-Fujikawa/sample-api-document#readme",
+  "devDependencies": {
+    "aglio": "^2.3.0",
+    "drakov": "^1.0.3",
+    "gulp": "^3.9.1"
+  }
+}
