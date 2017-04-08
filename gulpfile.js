@@ -1,7 +1,13 @@
 var gulp = require('gulp'),
+    // gulpでAPI Blueprintを使いドキュメントを生成
     aglio = require('gulp-aglio'),
+    // ドキュメントが更新されたら自動的にブラウザを更新
     browserSync = require('browser-sync'),
+    // gulpでファイルをリネーム
+    // ファイル分割されているものを1つのindex.mdにまとめる
     rename = require('gulp-rename'),
+    // ファイルを削除するプラグイン
+    // See. http://qiita.com/shinnn/items/bd7ad79526eff37cebd0
     rimraf = require('rimraf'),
     ejs = require('gulp-ejs');
 

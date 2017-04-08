@@ -18,7 +18,12 @@
   "homepage": "https://github.com/Y-Fujikawa/sample-api-document#readme",
   "devDependencies": {
     "aglio": "^2.3.0",
+    "browser-sync": "^2.18.8",
     "drakov": "^1.0.3",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-aglio": "0.0.10",
+    "gulp-ejs": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "rimraf": "^2.6.1"
   }
 }
