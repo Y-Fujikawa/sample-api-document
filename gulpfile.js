@@ -4,11 +4,11 @@ var gulp = require('gulp'),
     // ドキュメントが更新されたら自動的にブラウザを更新
     browserSync = require('browser-sync'),
     // gulpでファイルをリネーム
-    // ファイル分割されているものを1つのindex.mdにまとめる
     rename = require('gulp-rename'),
     // ファイルを削除するプラグイン
     // See. http://qiita.com/shinnn/items/bd7ad79526eff37cebd0
     rimraf = require('rimraf'),
+    // ファイル分割されているものを1つのindex.mdにまとめる
     ejs = require('gulp-ejs');
 
 var reload = browserSync.reload;
